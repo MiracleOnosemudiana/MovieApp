@@ -1,0 +1,22 @@
+.newReleaseHead {
+    font-size: 30px;
+    margin-top: 3rem;
+}
+
+.newReleaseImg {
+    padding-top: 5rem;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: auto auto ; */
+    justify-content: center;
+    /* width: 100% !important; */
+}
+
+.newReleaseImg>img {
+    width: 318px;
+    height: 260px;
+    border-radius: 10px;
+    /* margin-bottom: 3rem !important; */
+}

@@ -1,0 +1,44 @@
+.rating {
+    font-size: 22px;
+    line-height: 33px;
+    /* font-weight: bold; */
+}
+
+.title {
+    font-size: 75px;
+    line-height: 90px;
+    font-weight: bold;
+}
+
+.movieType {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+span {
+    font-size: 25px;
+    Line-height: 32.81px;
+}
+
+.youtubeLink>button{
+    background-color: rgba(208, 208, 208, 0.286);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px !important;
+    transition: 0.3s all linear;
+}
+
+button:nth-of-type(2) {
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px !important;
+    transition: 0.3s all linear;
+}
+
+.youtubeLink>button:hover {
+    background-color: rgba(208, 208, 208, 0.031);
+}
+
+button:nth-of-type(2):hover {
+    background-color: rgba(208, 208, 208, 0.121);
+}

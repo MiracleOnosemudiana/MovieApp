@@ -1,0 +1,27 @@
+.popularColHead {
+  font-size: 30px;
+  color: grey;
+}
+@media (max-width: 668px) {
+  .popularColHead{
+    margin-top: 4rem;
+
+  }
+}
+@media (max-width: 568px) {
+  .popularColHead{
+    margin-top: 9rem;
+
+  }
+}
+
+
+.popularColImg {
+  padding-top: 2rem;
+  width: 100% !important;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  grid-auto-flow: row;
+}

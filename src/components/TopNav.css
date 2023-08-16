@@ -1,0 +1,28 @@
+.topNav {
+    padding: 1px 2px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    /* box-sizing: border-box; */
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 !important;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    /* margin: 0 2em !important; */
+}
+.topNav>ul{
+    display: flex;
+    /* gap: 10px; */
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0;
+}
+.topNav>ul>li>a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}

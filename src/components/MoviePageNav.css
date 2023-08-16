@@ -1,0 +1,14 @@
+.moviePageNav {
+    /* padding: 1px 0px; */
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    /* box-sizing: border-box; */
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 0rem; */
+    /* backdrop-filter: blur(5px); */
+    border-radius: 20px;
+    /* margin: 0 2em !important; */
+}

@@ -1,0 +1,36 @@
+.heroSection {
+    position: relative;
+    width: 100%;
+    height: 992px;
+    /* left: 0px;
+    top: 0px; */
+    /* background: url(./img/heroImage.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.248);
+    color: white;
+}
+.tintedLayer{
+position: absolute;
+width: 100%;
+min-height: 992px;
+background-image: linear-gradient(to bottom ,rgba(0, 0, 0, 0.318)30%,rgba(0, 0, 0, 0.26)20%, rgb(0, 0, 0)60%  , rgb(0, 0, 0));
+
+}
+
+.crew-castList>img{
+    width: 10rem;
+    border-radius: 50%;
+}
+.crew-castList{
+    text-align: center;
+    width: 15rem;
+}
+.crew-castList>p:nth-of-type(1){
+font-size: 1.5rem;
+}
+.crew-castList>p:nth-of-type(2){
+color: rgba(255, 255, 255, 0.479);
+}
