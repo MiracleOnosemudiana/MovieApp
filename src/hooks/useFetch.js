@@ -9,12 +9,14 @@ const useFetch = (url) => {
 
 
     useEffect(() => {
-        console.log('i was called');
-        callData();
+        debugger
+        console.log('i was called here');
+        callData(url);
     }, [])
 
     const callData = async (url) => {
         try {
+            debugger
             setLoading(true)
             let response = await fetch(url);
             const data2 = await response.json()

@@ -8,6 +8,7 @@ import useFetch from './hooks/useFetch';
 
 
 const MoviePage = () => {
+    debugger
     let params = useParams();
     const movieID = params.id
     const { data, loading, error } = useFetch(`https://api.potterdb.com/v1/movies/${movieID}`)
@@ -39,6 +40,10 @@ const MoviePage = () => {
     }
 
     console.log('this is data', data);
+
+    if ( data ){
+
+    
 
     return (
         <div className='heroSection ' style={{
@@ -133,6 +138,8 @@ const MoviePage = () => {
             </div>
         </div>
     );
+
+    }
 }
 
 export default MoviePage;
